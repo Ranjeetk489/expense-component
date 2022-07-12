@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container" role="header">
+    <div class="c-header">
+      <div class="ch-box1">
+        <span class="ch-content">My balance</span>
+        <div class="ch-bal">$918.21</div>
+      </div>
+      <div class="ch-box2">
+        <span class="circle lc"></span>
+        <span class="circle rc"></span>
+      </div>
+    </div>
+
+    <!-- spending card -->
+    <div class="scard" role="spending Card">
+      <h2 class="scard-title">Spending - Last 7 days</h2>
+      <span class = "scard-day-spend"></span>
+      <div class="scard-graph-container"></div>
+      <div class="graph-day-container"></div>
+      <div class="scard-line"></div>
+      <div class="scard-footer">
+        <div class="scard-footer-box1">
+      <div class="scard-footer-title">Total this month</div>
+      <h1 class="scard-total-amt">$44</h1>
+    </div>
+    <div class="scard-footer-box2">
+      <div class="scard-per">+2.4%</div>
+      <div class="scard-time">from last month</div>
+    </div>
+    </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+  <script src="./script.js"></script>
+</html>
